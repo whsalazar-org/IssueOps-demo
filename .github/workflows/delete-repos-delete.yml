@@ -59,7 +59,7 @@ jobs:
             })
 
       - name: ApproveOps
-        uses: joshjohanning/approveops@caad905b2ba78301a0db7f484ef6fe3c770e6985 # v2.0.3
+        uses: joshjohanning/approveops@432b7eac03a03a2f6f20c31347d81d39b2bcb657 # v3.0.3
         id: check-approval
         with:
           token: ${{ steps.app-token.outputs.token }}
